@@ -23,8 +23,10 @@ pip install -r requirements.txt
 | `dqn.ipynb` | Agent DQN : entraînement, expériences, analyse |
 | `ppo.ipynb` | Agent PPO : entraînement, expériences, comparaison avec DQN |
 | `models/` | Modèles finaux sauvegardés |
+| `results/` | Résultats exportés (`dqn/`, `ppo/`) pour la comparaison |
 | `model.py` | Évaluation d'un modèle sauvegardé |
 | `bonus/` | Bonus |
+| `soutenance/` | Support de soutenance |
 
 ## Évaluation d'un modèle
 
