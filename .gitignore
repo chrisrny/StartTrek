@@ -1,0 +1,24 @@
+# Environnement virtuel
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Checkpoints intermédiaires (seuls les modèles finaux sont rendus, dans models/)
+checkpoints/
+
+# Sujets Epitech (pas de *.pdf : les supports de soutenance doivent être rendus)
+Start Trek.pdf
+Start Trek Bootstrap.pdf
+
+# macOS
+.DS_Store
+
+# Éditeurs
+.vscode/
+.idea/

@@ -1,0 +1,5 @@
+gymnasium[box2d,toy-text]>=1.0
+torch>=2.2
+numpy>=1.26
+matplotlib>=3.8
+jupyterlab>=4.0
