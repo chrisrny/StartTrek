@@ -18,7 +18,13 @@ Start Trek Bootstrap.pdf
 
 # macOS
 .DS_Store
+Icon?
 
 # Éditeurs
 .vscode/
 .idea/
+
+# Secrets locaux (token Notion, etc.) — jamais commités
+.notion-token
+.env
+.env.*
