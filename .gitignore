@@ -18,6 +18,8 @@ Start Trek Bootstrap.pdf
 
 # macOS
 .DS_Store
+Icon?
+.notion-token
 
 # Éditeurs
 .vscode/
