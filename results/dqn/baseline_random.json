@@ -1,10 +1,10 @@
 {
   "summary": {
     "n_episodes": 100,
-    "mean": -192.07693238967443,
-    "std": 114.4462261672069,
-    "min": -462.47447207112845,
-    "max": 8.25924195227833,
+    "mean": -191.959437308575,
+    "std": 114.55360657182345,
+    "min": -462.47410461857686,
+    "max": 8.25788741648995,
     "end_reasons": {
       "crash": 92,
       "out_of_viewport": 8,
@@ -15,803 +15,803 @@
   "episodes": [
     {
       "episode": 0,
-      "reward": -189.95971774923044,
+      "reward": -189.96201019186577,
       "length": 66,
       "end_reason": "crash",
       "global_step": 66,
-      "wall_time": 0.002893209457397461
+      "wall_time": 0.006130218505859375
     },
     {
       "episode": 1,
-      "reward": -291.53871953936687,
+      "reward": -291.5387046713623,
       "length": 114,
       "end_reason": "crash",
       "global_step": 180,
-      "wall_time": 0.005925178527832031
+      "wall_time": 0.012209177017211914
     },
     {
       "episode": 2,
-      "reward": -291.4647274990448,
+      "reward": -291.4654000016949,
       "length": 87,
       "end_reason": "crash",
       "global_step": 267,
-      "wall_time": 0.008150100708007812
+      "wall_time": 0.016397476196289062
     },
     {
       "episode": 3,
-      "reward": -121.82443145812668,
+      "reward": -121.82488615350577,
       "length": 90,
       "end_reason": "crash",
       "global_step": 357,
-      "wall_time": 0.010238170623779297
+      "wall_time": 0.020529747009277344
     },
     {
       "episode": 4,
-      "reward": -460.79907445211654,
+      "reward": -460.79921359829245,
       "length": 134,
       "end_reason": "crash",
       "global_step": 491,
-      "wall_time": 0.013560056686401367
+      "wall_time": 0.027151823043823242
     },
     {
       "episode": 5,
-      "reward": -94.49819295163252,
+      "reward": -94.49807339393365,
       "length": 126,
       "end_reason": "crash",
       "global_step": 617,
-      "wall_time": 0.01685929298400879
+      "wall_time": 0.03434348106384277
     },
     {
       "episode": 6,
-      "reward": -285.09023856071525,
+      "reward": -285.08979837719585,
       "length": 91,
       "end_reason": "out_of_viewport",
       "global_step": 708,
-      "wall_time": 0.01891613006591797
+      "wall_time": 0.03852272033691406
     },
     {
       "episode": 7,
-      "reward": -197.32081123576768,
+      "reward": -197.32145591358275,
       "length": 75,
       "end_reason": "crash",
       "global_step": 783,
-      "wall_time": 0.021068096160888672
+      "wall_time": 0.04237675666809082
     },
     {
       "episode": 8,
-      "reward": -115.99856151065703,
+      "reward": -115.99846770907601,
       "length": 68,
       "end_reason": "crash",
       "global_step": 851,
-      "wall_time": 0.02319622039794922
+      "wall_time": 0.045693397521972656
     },
     {
       "episode": 9,
-      "reward": -381.22662687360554,
+      "reward": -381.22703580207093,
       "length": 88,
       "end_reason": "out_of_viewport",
       "global_step": 939,
-      "wall_time": 0.02519392967224121
+      "wall_time": 0.049631595611572266
     },
     {
       "episode": 10,
-      "reward": -136.99833888840175,
+      "reward": -136.9951700413846,
       "length": 125,
       "end_reason": "crash",
       "global_step": 1064,
-      "wall_time": 0.027804136276245117
+      "wall_time": 0.05646204948425293
     },
     {
       "episode": 11,
-      "reward": -56.209524605577684,
+      "reward": -56.20943106408572,
       "length": 79,
       "end_reason": "crash",
       "global_step": 1143,
-      "wall_time": 0.029586315155029297
+      "wall_time": 0.060164690017700195
     },
     {
       "episode": 12,
-      "reward": -293.7967699448476,
+      "reward": -293.7971682099767,
       "length": 71,
       "end_reason": "crash",
       "global_step": 1214,
-      "wall_time": 0.03118729591369629
+      "wall_time": 0.06343984603881836
     },
     {
       "episode": 13,
-      "reward": -237.07925495996196,
+      "reward": -237.0823104671138,
       "length": 86,
       "end_reason": "crash",
       "global_step": 1300,
-      "wall_time": 0.03347301483154297
+      "wall_time": 0.06824636459350586
     },
     {
       "episode": 14,
-      "reward": -99.9081605643175,
+      "reward": -99.9081766486051,
       "length": 89,
       "end_reason": "crash",
       "global_step": 1389,
-      "wall_time": 0.035836219787597656
+      "wall_time": 0.0734548568725586
     },
     {
       "episode": 15,
-      "reward": -16.444589020772966,
+      "reward": -16.444978891702547,
       "length": 148,
       "end_reason": "crash",
       "global_step": 1537,
-      "wall_time": 0.039063215255737305
+      "wall_time": 0.08346104621887207
     },
     {
       "episode": 16,
-      "reward": -343.3734556814156,
+      "reward": -343.3732814469712,
       "length": 104,
       "end_reason": "crash",
       "global_step": 1641,
-      "wall_time": 0.04120016098022461
+      "wall_time": 0.08837652206420898
     },
     {
       "episode": 17,
-      "reward": -359.81621149216505,
+      "reward": -359.8163003826447,
       "length": 98,
       "end_reason": "out_of_viewport",
       "global_step": 1739,
-      "wall_time": 0.04352521896362305
+      "wall_time": 0.09270620346069336
     },
     {
       "episode": 18,
-      "reward": -439.4870298906026,
+      "reward": -439.48689209280076,
       "length": 90,
       "end_reason": "out_of_viewport",
       "global_step": 1829,
-      "wall_time": 0.04596209526062012
+      "wall_time": 0.09714961051940918
     },
     {
       "episode": 19,
-      "reward": -125.5660033801507,
+      "reward": -125.56596194768665,
       "length": 107,
       "end_reason": "crash",
       "global_step": 1936,
-      "wall_time": 0.04821610450744629
+      "wall_time": 0.10297846794128418
     },
     {
       "episode": 20,
-      "reward": -62.97459354331878,
+      "reward": -62.97463214814005,
       "length": 76,
       "end_reason": "crash",
       "global_step": 2012,
-      "wall_time": 0.04986715316772461
+      "wall_time": 0.10636782646179199
     },
     {
       "episode": 21,
-      "reward": -50.06397447574579,
+      "reward": -50.06373110195636,
       "length": 67,
       "end_reason": "crash",
       "global_step": 2079,
-      "wall_time": 0.05132699012756348
+      "wall_time": 0.10954093933105469
     },
     {
       "episode": 22,
-      "reward": -85.98128938894567,
+      "reward": -85.98128406676776,
       "length": 83,
       "end_reason": "crash",
       "global_step": 2162,
-      "wall_time": 0.05336904525756836
+      "wall_time": 0.11335301399230957
     },
     {
       "episode": 23,
-      "reward": -355.445778404019,
+      "reward": -355.44679652337874,
       "length": 83,
       "end_reason": "crash",
       "global_step": 2245,
-      "wall_time": 0.055390357971191406
+      "wall_time": 0.11742258071899414
     },
     {
       "episode": 24,
-      "reward": -177.90848788548578,
+      "reward": -177.90840898509424,
       "length": 58,
       "end_reason": "crash",
       "global_step": 2303,
-      "wall_time": 0.05675697326660156
+      "wall_time": 0.12033605575561523
     },
     {
       "episode": 25,
-      "reward": -276.0068915328261,
+      "reward": -276.00683285491505,
       "length": 110,
       "end_reason": "crash",
       "global_step": 2413,
-      "wall_time": 0.05911612510681152
+      "wall_time": 0.12524008750915527
     },
     {
       "episode": 26,
-      "reward": -192.49645965135824,
+      "reward": -192.49658054243736,
       "length": 106,
       "end_reason": "crash",
       "global_step": 2519,
-      "wall_time": 0.06138491630554199
+      "wall_time": 0.1298980712890625
     },
     {
       "episode": 27,
-      "reward": -446.0247481436466,
+      "reward": -446.0247981240264,
       "length": 97,
       "end_reason": "out_of_viewport",
       "global_step": 2616,
-      "wall_time": 0.06346011161804199
+      "wall_time": 0.13454389572143555
     },
     {
       "episode": 28,
-      "reward": -99.45167084582476,
+      "reward": -99.45176253725549,
       "length": 63,
       "end_reason": "crash",
       "global_step": 2679,
-      "wall_time": 0.06487321853637695
+      "wall_time": 0.1377100944519043
     },
     {
       "episode": 29,
-      "reward": -331.0942706235456,
+      "reward": -331.09408121630213,
       "length": 102,
       "end_reason": "out_of_viewport",
       "global_step": 2781,
-      "wall_time": 0.06695032119750977
+      "wall_time": 0.1424264907836914
     },
     {
       "episode": 30,
-      "reward": -443.8953890062525,
+      "reward": -443.8953748862959,
       "length": 78,
       "end_reason": "crash",
       "global_step": 2859,
-      "wall_time": 0.06864619255065918
+      "wall_time": 0.14603900909423828
     },
     {
       "episode": 31,
-      "reward": -147.36987023338077,
+      "reward": -147.37449877808865,
       "length": 71,
       "end_reason": "crash",
       "global_step": 2930,
-      "wall_time": 0.07035613059997559
+      "wall_time": 0.14963197708129883
     },
     {
       "episode": 32,
-      "reward": -259.28380533610436,
+      "reward": -259.2840114702774,
       "length": 111,
       "end_reason": "crash",
       "global_step": 3041,
-      "wall_time": 0.07285022735595703
+      "wall_time": 0.15470552444458008
     },
     {
       "episode": 33,
-      "reward": -114.72922702404075,
+      "reward": -114.7292995223895,
       "length": 68,
       "end_reason": "crash",
       "global_step": 3109,
-      "wall_time": 0.07430124282836914
+      "wall_time": 0.15805625915527344
     },
     {
       "episode": 34,
-      "reward": -223.99391452612224,
+      "reward": -223.9942391311484,
       "length": 63,
       "end_reason": "crash",
       "global_step": 3172,
-      "wall_time": 0.07574915885925293
+      "wall_time": 0.16143417358398438
     },
     {
       "episode": 35,
-      "reward": -386.396179680685,
+      "reward": -386.40376321399856,
       "length": 91,
       "end_reason": "crash",
       "global_step": 3263,
-      "wall_time": 0.07778620719909668
+      "wall_time": 0.16599702835083008
     },
     {
       "episode": 36,
-      "reward": -217.16565888841617,
+      "reward": -217.1658340501915,
       "length": 111,
       "end_reason": "crash",
       "global_step": 3374,
-      "wall_time": 0.08015203475952148
+      "wall_time": 0.1709609031677246
     },
     {
       "episode": 37,
-      "reward": -80.52000338308692,
+      "reward": -80.52006678850343,
       "length": 75,
       "end_reason": "crash",
       "global_step": 3449,
-      "wall_time": 0.08179092407226562
+      "wall_time": 0.17455124855041504
     },
     {
       "episode": 38,
-      "reward": -302.6442464457816,
+      "reward": -302.64303996243314,
       "length": 96,
       "end_reason": "crash",
       "global_step": 3545,
-      "wall_time": 0.08398318290710449
+      "wall_time": 0.17920374870300293
     },
     {
       "episode": 39,
-      "reward": -141.73781845529075,
+      "reward": -141.7377823178974,
       "length": 74,
       "end_reason": "crash",
       "global_step": 3619,
-      "wall_time": 0.08557319641113281
+      "wall_time": 0.18267345428466797
     },
     {
       "episode": 40,
-      "reward": -156.83756446523643,
+      "reward": -156.8373972704731,
       "length": 58,
       "end_reason": "crash",
       "global_step": 3677,
-      "wall_time": 0.08702206611633301
+      "wall_time": 0.18608903884887695
     },
     {
       "episode": 41,
-      "reward": -92.7222374436654,
+      "reward": -92.72232400104905,
       "length": 81,
       "end_reason": "crash",
       "global_step": 3758,
-      "wall_time": 0.08879828453063965
+      "wall_time": 0.19086122512817383
     },
     {
       "episode": 42,
-      "reward": -315.5148915165912,
+      "reward": -315.51565564698274,
       "length": 117,
       "end_reason": "crash",
       "global_step": 3875,
-      "wall_time": 0.0913231372833252
+      "wall_time": 0.19689393043518066
     },
     {
       "episode": 43,
-      "reward": -246.2361711378259,
+      "reward": -246.23564313915207,
       "length": 93,
       "end_reason": "crash",
       "global_step": 3968,
-      "wall_time": 0.09325313568115234
+      "wall_time": 0.2010793685913086
     },
     {
       "episode": 44,
-      "reward": -142.13200336527683,
+      "reward": -142.13217456637096,
       "length": 104,
       "end_reason": "crash",
       "global_step": 4072,
-      "wall_time": 0.09553217887878418
+      "wall_time": 0.2057628631591797
     },
     {
       "episode": 45,
-      "reward": 8.25924195227833,
+      "reward": 8.25788741648995,
       "length": 98,
       "end_reason": "crash",
       "global_step": 4170,
-      "wall_time": 0.09762406349182129
+      "wall_time": 0.21051263809204102
     },
     {
       "episode": 46,
-      "reward": -89.06886684729238,
+      "reward": -89.06888472826927,
       "length": 63,
       "end_reason": "crash",
       "global_step": 4233,
-      "wall_time": 0.09900617599487305
+      "wall_time": 0.2135789394378662
     },
     {
       "episode": 47,
-      "reward": -69.9584238341034,
+      "reward": -69.95850827910894,
       "length": 125,
       "end_reason": "crash",
       "global_step": 4358,
-      "wall_time": 0.10158109664916992
+      "wall_time": 0.21886897087097168
     },
     {
       "episode": 48,
-      "reward": -100.45314058556649,
+      "reward": -100.45310763095416,
       "length": 74,
       "end_reason": "crash",
       "global_step": 4432,
-      "wall_time": 0.10331010818481445
+      "wall_time": 0.22225642204284668
     },
     {
       "episode": 49,
-      "reward": -369.92192144260986,
+      "reward": -369.91973716971927,
       "length": 115,
       "end_reason": "crash",
       "global_step": 4547,
-      "wall_time": 0.1057281494140625
+      "wall_time": 0.22725868225097656
     },
     {
       "episode": 50,
-      "reward": -98.45101582221866,
+      "reward": -98.45088234259478,
       "length": 71,
       "end_reason": "crash",
       "global_step": 4618,
-      "wall_time": 0.1073160171508789
+      "wall_time": 0.23055791854858398
     },
     {
       "episode": 51,
-      "reward": -198.93719548248032,
+      "reward": -198.954422106935,
       "length": 108,
       "end_reason": "crash",
       "global_step": 4726,
-      "wall_time": 0.10963606834411621
+      "wall_time": 0.23612213134765625
     },
     {
       "episode": 52,
-      "reward": -85.94190730552717,
+      "reward": -85.94198047523349,
       "length": 60,
       "end_reason": "crash",
       "global_step": 4786,
-      "wall_time": 0.11103200912475586
+      "wall_time": 0.24012398719787598
     },
     {
       "episode": 53,
-      "reward": -142.87202787391846,
+      "reward": -142.87204469021566,
       "length": 110,
       "end_reason": "crash",
       "global_step": 4896,
-      "wall_time": 0.11359906196594238
+      "wall_time": 0.2474043369293213
     },
     {
       "episode": 54,
-      "reward": -114.00401018087805,
+      "reward": -114.00354998195985,
       "length": 67,
       "end_reason": "crash",
       "global_step": 4963,
-      "wall_time": 0.11533427238464355
+      "wall_time": 0.251295804977417
     },
     {
       "episode": 55,
-      "reward": -106.01367375218142,
+      "reward": -106.01373121578352,
       "length": 78,
       "end_reason": "crash",
       "global_step": 5041,
-      "wall_time": 0.1170191764831543
+      "wall_time": 0.25490498542785645
     },
     {
       "episode": 56,
-      "reward": -123.55133951567906,
+      "reward": -123.5510098665318,
       "length": 66,
       "end_reason": "crash",
       "global_step": 5107,
-      "wall_time": 0.11848616600036621
+      "wall_time": 0.2579529285430908
     },
     {
       "episode": 57,
-      "reward": -199.5652826554564,
+      "reward": -199.56561326650905,
       "length": 109,
       "end_reason": "out_of_viewport",
       "global_step": 5216,
-      "wall_time": 0.12081623077392578
+      "wall_time": 0.26271796226501465
     },
     {
       "episode": 58,
-      "reward": -124.68370928575726,
+      "reward": -124.68394754421664,
       "length": 84,
       "end_reason": "crash",
       "global_step": 5300,
-      "wall_time": 0.12301325798034668
+      "wall_time": 0.2675504684448242
     },
     {
       "episode": 59,
-      "reward": -287.81990187199364,
+      "reward": -287.8205547489546,
       "length": 85,
       "end_reason": "crash",
       "global_step": 5385,
-      "wall_time": 0.12489819526672363
+      "wall_time": 0.2716543674468994
     },
     {
       "episode": 60,
-      "reward": -402.0680257494141,
+      "reward": -402.0651020563057,
       "length": 130,
       "end_reason": "crash",
       "global_step": 5515,
-      "wall_time": 0.12763714790344238
+      "wall_time": 0.27726078033447266
     },
     {
       "episode": 61,
-      "reward": -137.76139679748817,
+      "reward": -137.76145468790008,
       "length": 93,
       "end_reason": "crash",
       "global_step": 5608,
-      "wall_time": 0.12975406646728516
+      "wall_time": 0.28154778480529785
     },
     {
       "episode": 62,
-      "reward": -93.60530232712662,
+      "reward": -81.82195056166725,
       "length": 70,
       "end_reason": "crash",
       "global_step": 5678,
-      "wall_time": 0.13130807876586914
+      "wall_time": 0.2850368022918701
     },
     {
       "episode": 63,
-      "reward": -196.172050503087,
+      "reward": -196.17239114746434,
       "length": 76,
       "end_reason": "crash",
       "global_step": 5754,
-      "wall_time": 0.13298511505126953
+      "wall_time": 0.28876447677612305
     },
     {
       "episode": 64,
-      "reward": -98.00443588730222,
+      "reward": -98.00443534615893,
       "length": 68,
       "end_reason": "crash",
       "global_step": 5822,
-      "wall_time": 0.13454532623291016
+      "wall_time": 0.29194164276123047
     },
     {
       "episode": 65,
-      "reward": -418.32157001498445,
+      "reward": -418.3204825590983,
       "length": 91,
       "end_reason": "crash",
       "global_step": 5913,
-      "wall_time": 0.1365680694580078
+      "wall_time": 0.2960379123687744
     },
     {
       "episode": 66,
-      "reward": -164.8894560792079,
+      "reward": -164.8891577020948,
       "length": 111,
       "end_reason": "crash",
       "global_step": 6024,
-      "wall_time": 0.13886213302612305
+      "wall_time": 0.3010575771331787
     },
     {
       "episode": 67,
-      "reward": -174.77301232366915,
+      "reward": -174.77297425876804,
       "length": 133,
       "end_reason": "crash",
       "global_step": 6157,
-      "wall_time": 0.14157700538635254
+      "wall_time": 0.3068552017211914
     },
     {
       "episode": 68,
-      "reward": -128.67883536787036,
+      "reward": -128.67916044956058,
       "length": 85,
       "end_reason": "crash",
       "global_step": 6242,
-      "wall_time": 0.1433882713317871
+      "wall_time": 0.3107433319091797
     },
     {
       "episode": 69,
-      "reward": -238.7093256889394,
+      "reward": -238.70943542696583,
       "length": 95,
       "end_reason": "crash",
       "global_step": 6337,
-      "wall_time": 0.14550018310546875
+      "wall_time": 0.31498265266418457
     },
     {
       "episode": 70,
-      "reward": -196.18126321586183,
+      "reward": -196.1813496415327,
       "length": 67,
       "end_reason": "crash",
       "global_step": 6404,
-      "wall_time": 0.14699316024780273
+      "wall_time": 0.3181178569793701
     },
     {
       "episode": 71,
-      "reward": -152.31871272599687,
+      "reward": -152.31841211826605,
       "length": 101,
       "end_reason": "crash",
       "global_step": 6505,
-      "wall_time": 0.1490790843963623
+      "wall_time": 0.32248449325561523
     },
     {
       "episode": 72,
-      "reward": -100.89254841765477,
+      "reward": -100.89261040917468,
       "length": 86,
       "end_reason": "crash",
       "global_step": 6591,
-      "wall_time": 0.1509242057800293
+      "wall_time": 0.3262298107147217
     },
     {
       "episode": 73,
-      "reward": -163.9448641500885,
+      "reward": -163.94520707670404,
       "length": 114,
       "end_reason": "crash",
       "global_step": 6705,
-      "wall_time": 0.15331411361694336
+      "wall_time": 0.33127665519714355
     },
     {
       "episode": 74,
-      "reward": -334.5041894785063,
+      "reward": -334.5017237690293,
       "length": 141,
       "end_reason": "crash",
       "global_step": 6846,
-      "wall_time": 0.1562051773071289
+      "wall_time": 0.3373873233795166
     },
     {
       "episode": 75,
-      "reward": -119.6784484031021,
+      "reward": -119.67893439534006,
       "length": 69,
       "end_reason": "crash",
       "global_step": 6915,
-      "wall_time": 0.15767812728881836
+      "wall_time": 0.3404994010925293
     },
     {
       "episode": 76,
-      "reward": -130.49092853121337,
+      "reward": -130.49012216119542,
       "length": 73,
       "end_reason": "crash",
       "global_step": 6988,
-      "wall_time": 0.15926122665405273
+      "wall_time": 0.34372472763061523
     },
     {
       "episode": 77,
-      "reward": -114.10514747928907,
+      "reward": -114.10469929445749,
       "length": 75,
       "end_reason": "crash",
       "global_step": 7063,
-      "wall_time": 0.16090917587280273
+      "wall_time": 0.3470449447631836
     },
     {
       "episode": 78,
-      "reward": -116.35256972086879,
+      "reward": -116.35255160417745,
       "length": 102,
       "end_reason": "crash",
       "global_step": 7165,
-      "wall_time": 0.16313505172729492
+      "wall_time": 0.35152721405029297
     },
     {
       "episode": 79,
-      "reward": -106.09017381299955,
+      "reward": -106.0901625845145,
       "length": 69,
       "end_reason": "crash",
       "global_step": 7234,
-      "wall_time": 0.16464519500732422
+      "wall_time": 0.3547194004058838
     },
     {
       "episode": 80,
-      "reward": -169.02732943372064,
+      "reward": -169.0276752853263,
       "length": 75,
       "end_reason": "crash",
       "global_step": 7309,
-      "wall_time": 0.1663222312927246
+      "wall_time": 0.3582015037536621
     },
     {
       "episode": 81,
-      "reward": -462.47447207112845,
+      "reward": -462.47410461857686,
       "length": 129,
       "end_reason": "crash",
       "global_step": 7438,
-      "wall_time": 0.1689453125
+      "wall_time": 0.3636956214904785
     },
     {
       "episode": 82,
-      "reward": -91.99336219677504,
+      "reward": -91.99327924234653,
       "length": 63,
       "end_reason": "crash",
       "global_step": 7501,
-      "wall_time": 0.17042112350463867
+      "wall_time": 0.36652517318725586
     },
     {
       "episode": 83,
-      "reward": -129.1933905101139,
+      "reward": -129.19343178760352,
       "length": 97,
       "end_reason": "crash",
       "global_step": 7598,
-      "wall_time": 0.17242217063903809
+      "wall_time": 0.370650053024292
     },
     {
       "episode": 84,
-      "reward": -116.45855210051252,
+      "reward": -116.45909047800433,
       "length": 72,
       "end_reason": "crash",
       "global_step": 7670,
-      "wall_time": 0.17398309707641602
+      "wall_time": 0.37386131286621094
     },
     {
       "episode": 85,
-      "reward": -366.59523316293763,
+      "reward": -366.5960527735336,
       "length": 93,
       "end_reason": "out_of_viewport",
       "global_step": 7763,
-      "wall_time": 0.17588210105895996
+      "wall_time": 0.37770938873291016
     },
     {
       "episode": 86,
-      "reward": -136.98331131707033,
+      "reward": -136.98323958731982,
       "length": 72,
       "end_reason": "crash",
       "global_step": 7835,
-      "wall_time": 0.17743825912475586
+      "wall_time": 0.38097047805786133
     },
     {
       "episode": 87,
-      "reward": -64.34070046803441,
+      "reward": -64.340956738152,
       "length": 69,
       "end_reason": "crash",
       "global_step": 7904,
-      "wall_time": 0.1791090965270996
+      "wall_time": 0.3840796947479248
     },
     {
       "episode": 88,
-      "reward": -65.75284921451319,
+      "reward": -65.75270498800833,
       "length": 86,
       "end_reason": "crash",
       "global_step": 7990,
-      "wall_time": 0.1809101104736328
+      "wall_time": 0.3878359794616699
     },
     {
       "episode": 89,
-      "reward": -287.0122462134406,
+      "reward": -287.01226808368415,
       "length": 81,
       "end_reason": "crash",
       "global_step": 8071,
-      "wall_time": 0.18273305892944336
+      "wall_time": 0.39150238037109375
     },
     {
       "episode": 90,
-      "reward": -90.12520700031226,
+      "reward": -90.12522783831861,
       "length": 97,
       "end_reason": "crash",
       "global_step": 8168,
-      "wall_time": 0.18481206893920898
+      "wall_time": 0.39600181579589844
     },
     {
       "episode": 91,
-      "reward": -77.89924074758804,
+      "reward": -77.8995940216042,
       "length": 108,
       "end_reason": "crash",
       "global_step": 8276,
-      "wall_time": 0.18717002868652344
+      "wall_time": 0.4008362293243408
     },
     {
       "episode": 92,
-      "reward": -118.91075974156355,
+      "reward": -118.91044895233084,
       "length": 82,
       "end_reason": "crash",
       "global_step": 8358,
-      "wall_time": 0.18889117240905762
+      "wall_time": 0.4044950008392334
     },
     {
       "episode": 93,
-      "reward": -190.19820764935653,
+      "reward": -190.1981889489943,
       "length": 93,
       "end_reason": "crash",
       "global_step": 8451,
-      "wall_time": 0.19091510772705078
+      "wall_time": 0.4085507392883301
     },
     {
       "episode": 94,
-      "reward": -198.95179616075373,
+      "reward": -198.95271355581204,
       "length": 67,
       "end_reason": "crash",
       "global_step": 8518,
-      "wall_time": 0.19239306449890137
+      "wall_time": 0.4116017818450928
     },
     {
       "episode": 95,
-      "reward": -341.4945166967019,
+      "reward": -341.49510741145366,
       "length": 123,
       "end_reason": "crash",
       "global_step": 8641,
-      "wall_time": 0.19514107704162598
+      "wall_time": 0.416888952255249
     },
     {
       "episode": 96,
-      "reward": -375.57333833676296,
+      "reward": -375.5752449233862,
       "length": 87,
       "end_reason": "crash",
       "global_step": 8728,
-      "wall_time": 0.19712209701538086
+      "wall_time": 0.421001672744751
     },
     {
       "episode": 97,
-      "reward": -95.40806740162726,
+      "reward": -95.40788117967337,
       "length": 100,
       "end_reason": "crash",
       "global_step": 8828,
-      "wall_time": 0.19921016693115234
+      "wall_time": 0.42519235610961914
     },
     {
       "episode": 98,
-      "reward": -120.6212040034009,
+      "reward": -120.62289636295331,
       "length": 92,
       "end_reason": "crash",
       "global_step": 8920,
-      "wall_time": 0.2011551856994629
+      "wall_time": 0.4294619560241699
     },
     {
       "episode": 99,
-      "reward": -131.12643770213003,
+      "reward": -131.12649034846504,
       "length": 83,
       "end_reason": "crash",
       "global_step": 9003,
-      "wall_time": 0.20300817489624023
+      "wall_time": 0.433164119720459
     }
   ]
 }
