@@ -1,6 +1,4 @@
 #!/usr/bin/env python3
-"""Start Trek: plays a saved DQN or PPO model in LunarLander-v3, without exploration."""
-
 import sys
 
 USAGE = """USAGE
