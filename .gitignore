@@ -29,3 +29,6 @@ Icon?
 .notion-token
 .env
 .env.*
+
+# Fichiers de travail locaux (récap, étapes de notebook) — jamais commités
+Macos/
