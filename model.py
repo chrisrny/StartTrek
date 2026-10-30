@@ -61,11 +61,44 @@ def parse_args(argv):
     return algo, path, int(episodes)
 
 
+def load_policy(algo, path):
+    checkpoint = torch.load(path, map_location="cpu", weights_only=False)
+    try:
+        config = checkpoint["config"]
+        saved_algo = checkpoint.get("algo", config.get("algo"))
+        net = config.get("network", config)
+        sizes = (int(net["obs_dim"]), int(net["n_actions"]), net["hidden_sizes"])
+    except (KeyError, TypeError, AttributeError):
+        raise ValueError(f"{path} is not a valid model file") from None
+    if saved_algo != algo:
+        raise ValueError(f"{path} is a {saved_algo} model, not a {algo} model")
+
+    if algo == "dqn":
+        network = QNetwork(*sizes)
+        greedy = network
+    else:
+        network = ActorCritic(*sizes)
+        greedy = network.actor
+    network.load_state_dict(checkpoint["state_dict"])
+    network.eval()
+
+    def policy(obs):
+        with torch.no_grad():
+            return int(greedy(torch.as_tensor(obs, dtype=torch.float32)).argmax())
+
+    return policy
+
+
 def main(argv):
     if argv in (["-h"], ["--help"]):
         print(USAGE)
         return 0
-    parse_args(argv)
+    algo, path, episodes = parse_args(argv)
+    try:
+        load_policy(algo, path)
+    except Exception as error:
+        print(f"model.py: {error}", file=sys.stderr)
+        return 84
     return 0
 
 
