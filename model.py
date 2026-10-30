@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 import sys
 
+import torch
+import torch.nn as nn
+
 USAGE = """USAGE
     python model.py ALGO MODEL [EPISODES]
 
@@ -8,6 +11,37 @@ DESCRIPTION
     ALGO         algorithm of the saved model: dqn or ppo
     MODEL        path to the saved model file
     EPISODES     number of episodes to run (default: 1)"""
+
+
+class QNetwork(nn.Module):
+    def __init__(self, obs_dim, n_actions, hidden_sizes=(128, 128)):
+        super().__init__()
+        layers = []
+        in_size = obs_dim
+        for size in hidden_sizes:
+            layers += [nn.Linear(in_size, size), nn.ReLU()]
+            in_size = size
+        layers.append(nn.Linear(in_size, n_actions))
+        self.net = nn.Sequential(*layers)
+
+    def forward(self, x):
+        return self.net(x)
+
+
+def build_mlp(input_dim, hidden_sizes, output_dim):
+    layers, last_dim = [], input_dim
+    for size in hidden_sizes:
+        layers += [nn.Linear(last_dim, size), nn.Tanh()]
+        last_dim = size
+    layers.append(nn.Linear(last_dim, output_dim))
+    return nn.Sequential(*layers)
+
+
+class ActorCritic(nn.Module):
+    def __init__(self, obs_dim, n_actions, hidden_sizes):
+        super().__init__()
+        self.actor = build_mlp(obs_dim, hidden_sizes, n_actions)
+        self.critic = build_mlp(obs_dim, hidden_sizes, 1)
 
 
 def usage_error(message):
