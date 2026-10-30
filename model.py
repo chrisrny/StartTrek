@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import sys
 
+import gymnasium as gym
 import torch
 import torch.nn as nn
 
@@ -94,11 +95,27 @@ def main(argv):
         print(USAGE)
         return 0
     algo, path, episodes = parse_args(argv)
+    env = None
     try:
-        load_policy(algo, path)
+        policy = load_policy(algo, path)
+        env = gym.make("LunarLander-v3", render_mode="human")
+        for episode in range(1, episodes + 1):
+            obs, _ = env.reset()
+            score, done = 0.0, False
+            while not done:
+                obs, reward, terminated, truncated, _ = env.step(policy(obs))
+                score += reward
+                done = terminated or truncated
+            print(f"Episode {episode}: score {score:.2f}")
+    except KeyboardInterrupt:
+        print("model.py: interrupted", file=sys.stderr)
+        return 84
     except Exception as error:
         print(f"model.py: {error}", file=sys.stderr)
         return 84
+    finally:
+        if env is not None:
+            env.close()
     return 0
 
 
