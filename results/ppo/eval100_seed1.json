@@ -26,7 +26,7 @@
       "length": 287,
       "end_reason": "at_rest",
       "global_step": 287,
-      "wall_time": 0.011940240859985352
+      "wall_time": 0.010672807693481445
     },
     {
       "episode": 1,
@@ -34,7 +34,7 @@
       "length": 223,
       "end_reason": "at_rest",
       "global_step": 510,
-      "wall_time": 0.020029306411743164
+      "wall_time": 0.018681764602661133
     },
     {
       "episode": 2,
@@ -42,7 +42,7 @@
       "length": 253,
       "end_reason": "at_rest",
       "global_step": 763,
-      "wall_time": 0.029326200485229492
+      "wall_time": 0.028218746185302734
     },
     {
       "episode": 3,
@@ -50,7 +50,7 @@
       "length": 276,
       "end_reason": "at_rest",
       "global_step": 1039,
-      "wall_time": 0.0399930477142334
+      "wall_time": 0.03877401351928711
     },
     {
       "episode": 4,
@@ -58,7 +58,7 @@
       "length": 260,
       "end_reason": "at_rest",
       "global_step": 1299,
-      "wall_time": 0.049529075622558594
+      "wall_time": 0.048317909240722656
     },
     {
       "episode": 5,
@@ -66,7 +66,7 @@
       "length": 190,
       "end_reason": "crash",
       "global_step": 1489,
-      "wall_time": 0.05654311180114746
+      "wall_time": 0.05540871620178223
     },
     {
       "episode": 6,
@@ -74,7 +74,7 @@
       "length": 264,
       "end_reason": "at_rest",
       "global_step": 1753,
-      "wall_time": 0.06630396842956543
+      "wall_time": 0.06495881080627441
     },
     {
       "episode": 7,
@@ -82,7 +82,7 @@
       "length": 271,
       "end_reason": "at_rest",
       "global_step": 2024,
-      "wall_time": 0.07639908790588379
+      "wall_time": 0.07491683959960938
     },
     {
       "episode": 8,
@@ -90,7 +90,7 @@
       "length": 234,
       "end_reason": "at_rest",
       "global_step": 2258,
-      "wall_time": 0.08506512641906738
+      "wall_time": 0.08354997634887695
     },
     {
       "episode": 9,
@@ -98,7 +98,7 @@
       "length": 244,
       "end_reason": "at_rest",
       "global_step": 2502,
-      "wall_time": 0.09433603286743164
+      "wall_time": 0.09270286560058594
     },
     {
       "episode": 10,
@@ -106,7 +106,7 @@
       "length": 277,
       "end_reason": "crash",
       "global_step": 2779,
-      "wall_time": 0.10484194755554199
+      "wall_time": 0.10294985771179199
     },
     {
       "episode": 11,
@@ -114,7 +114,7 @@
       "length": 198,
       "end_reason": "crash",
       "global_step": 2977,
-      "wall_time": 0.11240816116333008
+      "wall_time": 0.11043667793273926
     },
     {
       "episode": 12,
@@ -122,7 +122,7 @@
       "length": 479,
       "end_reason": "at_rest",
       "global_step": 3456,
-      "wall_time": 0.13033509254455566
+      "wall_time": 0.12823867797851562
     },
     {
       "episode": 13,
@@ -130,7 +130,7 @@
       "length": 393,
       "end_reason": "at_rest",
       "global_step": 3849,
-      "wall_time": 0.1453099250793457
+      "wall_time": 0.14299273490905762
     },
     {
       "episode": 14,
@@ -138,7 +138,7 @@
       "length": 246,
       "end_reason": "at_rest",
       "global_step": 4095,
-      "wall_time": 0.15440630912780762
+      "wall_time": 0.15249276161193848
     },
     {
       "episode": 15,
@@ -146,7 +146,7 @@
       "length": 279,
       "end_reason": "at_rest",
       "global_step": 4374,
-      "wall_time": 0.1651611328125
+      "wall_time": 0.16296982765197754
     },
     {
       "episode": 16,
@@ -154,7 +154,7 @@
       "length": 306,
       "end_reason": "at_rest",
       "global_step": 4680,
-      "wall_time": 0.17625117301940918
+      "wall_time": 0.1741018295288086
     },
     {
       "episode": 17,
@@ -162,7 +162,7 @@
       "length": 1000,
       "end_reason": "truncated",
       "global_step": 5680,
-      "wall_time": 0.21588921546936035
+      "wall_time": 0.21388578414916992
     },
     {
       "episode": 18,
@@ -170,7 +170,7 @@
       "length": 245,
       "end_reason": "at_rest",
       "global_step": 5925,
-      "wall_time": 0.22492313385009766
+      "wall_time": 0.2230358123779297
     },
     {
       "episode": 19,
@@ -178,7 +178,7 @@
       "length": 231,
       "end_reason": "at_rest",
       "global_step": 6156,
-      "wall_time": 0.2332930564880371
+      "wall_time": 0.23146963119506836
     },
     {
       "episode": 20,
@@ -186,7 +186,7 @@
       "length": 259,
       "end_reason": "at_rest",
       "global_step": 6415,
-      "wall_time": 0.24279403686523438
+      "wall_time": 0.24116992950439453
     },
     {
       "episode": 21,
@@ -194,7 +194,7 @@
       "length": 1000,
       "end_reason": "truncated",
       "global_step": 7415,
-      "wall_time": 0.2826392650604248
+      "wall_time": 0.2819819450378418
     },
     {
       "episode": 22,
@@ -202,7 +202,7 @@
       "length": 232,
       "end_reason": "at_rest",
       "global_step": 7647,
-      "wall_time": 0.2911951541900635
+      "wall_time": 0.29097580909729004
     },
     {
       "episode": 23,
@@ -210,7 +210,7 @@
       "length": 434,
       "end_reason": "at_rest",
       "global_step": 8081,
-      "wall_time": 0.30759501457214355
+      "wall_time": 0.30834197998046875
     },
     {
       "episode": 24,
@@ -218,7 +218,7 @@
       "length": 227,
       "end_reason": "at_rest",
       "global_step": 8308,
-      "wall_time": 0.3159811496734619
+      "wall_time": 0.3173527717590332
     },
     {
       "episode": 25,
@@ -226,7 +226,7 @@
       "length": 338,
       "end_reason": "at_rest",
       "global_step": 8646,
-      "wall_time": 0.32845306396484375
+      "wall_time": 0.3296959400177002
     },
     {
       "episode": 26,
@@ -234,7 +234,7 @@
       "length": 216,
       "end_reason": "crash",
       "global_step": 8862,
-      "wall_time": 0.33602213859558105
+      "wall_time": 0.3380138874053955
     },
     {
       "episode": 27,
@@ -242,7 +242,7 @@
       "length": 262,
       "end_reason": "at_rest",
       "global_step": 9124,
-      "wall_time": 0.3455791473388672
+      "wall_time": 0.3475797176361084
     },
     {
       "episode": 28,
@@ -250,7 +250,7 @@
       "length": 216,
       "end_reason": "at_rest",
       "global_step": 9340,
-      "wall_time": 0.35377931594848633
+      "wall_time": 0.3553779125213623
     },
     {
       "episode": 29,
@@ -258,7 +258,7 @@
       "length": 284,
       "end_reason": "at_rest",
       "global_step": 9624,
-      "wall_time": 0.36391711235046387
+      "wall_time": 0.36542272567749023
     },
     {
       "episode": 30,
@@ -266,7 +266,7 @@
       "length": 231,
       "end_reason": "at_rest",
       "global_step": 9855,
-      "wall_time": 0.372420072555542
+      "wall_time": 0.37349987030029297
     },
     {
       "episode": 31,
@@ -274,7 +274,7 @@
       "length": 260,
       "end_reason": "at_rest",
       "global_step": 10115,
-      "wall_time": 0.3818831443786621
+      "wall_time": 0.383281946182251
     },
     {
       "episode": 32,
@@ -282,7 +282,7 @@
       "length": 230,
       "end_reason": "at_rest",
       "global_step": 10345,
-      "wall_time": 0.39038634300231934
+      "wall_time": 0.3915848731994629
     },
     {
       "episode": 33,
@@ -290,7 +290,7 @@
       "length": 261,
       "end_reason": "at_rest",
       "global_step": 10606,
-      "wall_time": 0.40012216567993164
+      "wall_time": 0.40172886848449707
     },
     {
       "episode": 34,
@@ -298,7 +298,7 @@
       "length": 1000,
       "end_reason": "truncated",
       "global_step": 11606,
-      "wall_time": 0.4416849613189697
+      "wall_time": 0.44063591957092285
     },
     {
       "episode": 35,
@@ -306,7 +306,7 @@
       "length": 228,
       "end_reason": "at_rest",
       "global_step": 11834,
-      "wall_time": 0.45116329193115234
+      "wall_time": 0.44901299476623535
     },
     {
       "episode": 36,
@@ -314,7 +314,7 @@
       "length": 232,
       "end_reason": "at_rest",
       "global_step": 12066,
-      "wall_time": 0.4605979919433594
+      "wall_time": 0.45867180824279785
     },
     {
       "episode": 37,
@@ -322,7 +322,7 @@
       "length": 230,
       "end_reason": "at_rest",
       "global_step": 12296,
-      "wall_time": 0.4700160026550293
+      "wall_time": 0.46773386001586914
     },
     {
       "episode": 38,
@@ -330,7 +330,7 @@
       "length": 247,
       "end_reason": "at_rest",
       "global_step": 12543,
-      "wall_time": 0.47998619079589844
+      "wall_time": 0.47708988189697266
     },
     {
       "episode": 39,
@@ -338,7 +338,7 @@
       "length": 281,
       "end_reason": "at_rest",
       "global_step": 12824,
-      "wall_time": 0.49105310440063477
+      "wall_time": 0.4884607791900635
     },
     {
       "episode": 40,
@@ -346,7 +346,7 @@
       "length": 233,
       "end_reason": "at_rest",
       "global_step": 13057,
-      "wall_time": 0.4993882179260254
+      "wall_time": 0.49756288528442383
     },
     {
       "episode": 41,
@@ -354,7 +354,7 @@
       "length": 342,
       "end_reason": "at_rest",
       "global_step": 13399,
-      "wall_time": 0.5119853019714355
+      "wall_time": 0.5126500129699707
     },
     {
       "episode": 42,
@@ -362,7 +362,7 @@
       "length": 166,
       "end_reason": "crash",
       "global_step": 13565,
-      "wall_time": 0.5179471969604492
+      "wall_time": 0.5197997093200684
     },
     {
       "episode": 43,
@@ -370,7 +370,7 @@
       "length": 264,
       "end_reason": "at_rest",
       "global_step": 13829,
-      "wall_time": 0.5278363227844238
+      "wall_time": 0.5298149585723877
     },
     {
       "episode": 44,
@@ -378,7 +378,7 @@
       "length": 257,
       "end_reason": "at_rest",
       "global_step": 14086,
-      "wall_time": 0.537224292755127
+      "wall_time": 0.5393059253692627
     },
     {
       "episode": 45,
@@ -386,7 +386,7 @@
       "length": 227,
       "end_reason": "at_rest",
       "global_step": 14313,
-      "wall_time": 0.5459861755371094
+      "wall_time": 0.5475049018859863
     },
     {
       "episode": 46,
@@ -394,7 +394,7 @@
       "length": 264,
       "end_reason": "at_rest",
       "global_step": 14577,
-      "wall_time": 0.5556821823120117
+      "wall_time": 0.5573108196258545
     },
     {
       "episode": 47,
@@ -402,7 +402,7 @@
       "length": 252,
       "end_reason": "at_rest",
       "global_step": 14829,
-      "wall_time": 0.5651702880859375
+      "wall_time": 0.5667257308959961
     },
     {
       "episode": 48,
@@ -410,7 +410,7 @@
       "length": 187,
       "end_reason": "crash",
       "global_step": 15016,
-      "wall_time": 0.5719881057739258
+      "wall_time": 0.5735287666320801
     },
     {
       "episode": 49,
@@ -418,7 +418,7 @@
       "length": 203,
       "end_reason": "crash",
       "global_step": 15219,
-      "wall_time": 0.5794942378997803
+      "wall_time": 0.5811519622802734
     },
     {
       "episode": 50,
@@ -426,7 +426,7 @@
       "length": 196,
       "end_reason": "crash",
       "global_step": 15415,
-      "wall_time": 0.5868680477142334
+      "wall_time": 0.5880429744720459
     },
     {
       "episode": 51,
@@ -434,7 +434,7 @@
       "length": 211,
       "end_reason": "crash",
       "global_step": 15626,
-      "wall_time": 0.5948610305786133
+      "wall_time": 0.5956418514251709
     },
     {
       "episode": 52,
@@ -442,7 +442,7 @@
       "length": 202,
       "end_reason": "crash",
       "global_step": 15828,
-      "wall_time": 0.602445125579834
+      "wall_time": 0.6033599376678467
     },
     {
       "episode": 53,
@@ -450,7 +450,7 @@
       "length": 317,
       "end_reason": "at_rest",
       "global_step": 16145,
-      "wall_time": 0.6142251491546631
+      "wall_time": 0.615933895111084
     },
     {
       "episode": 54,
@@ -458,7 +458,7 @@
       "length": 255,
       "end_reason": "at_rest",
       "global_step": 16400,
-      "wall_time": 0.6234211921691895
+      "wall_time": 0.6258537769317627
     },
     {
       "episode": 55,
@@ -466,7 +466,7 @@
       "length": 1000,
       "end_reason": "truncated",
       "global_step": 17400,
-      "wall_time": 0.66355299949646
+      "wall_time": 0.6673038005828857
     },
     {
       "episode": 56,
@@ -474,7 +474,7 @@
       "length": 247,
       "end_reason": "at_rest",
       "global_step": 17647,
-      "wall_time": 0.6728000640869141
+      "wall_time": 0.6771047115325928
     },
     {
       "episode": 57,
@@ -482,7 +482,7 @@
       "length": 247,
       "end_reason": "at_rest",
       "global_step": 17894,
-      "wall_time": 0.6824851036071777
+      "wall_time": 0.686903715133667
     },
     {
       "episode": 58,
@@ -490,7 +490,7 @@
       "length": 227,
       "end_reason": "at_rest",
       "global_step": 18121,
-      "wall_time": 0.6909732818603516
+      "wall_time": 0.6955728530883789
     },
     {
       "episode": 59,
@@ -498,7 +498,7 @@
       "length": 241,
       "end_reason": "at_rest",
       "global_step": 18362,
-      "wall_time": 0.7002861499786377
+      "wall_time": 0.705388069152832
     },
     {
       "episode": 60,
@@ -506,7 +506,7 @@
       "length": 261,
       "end_reason": "at_rest",
       "global_step": 18623,
-      "wall_time": 0.7103250026702881
+      "wall_time": 0.7155337333679199
     },
     {
       "episode": 61,
@@ -514,7 +514,7 @@
       "length": 260,
       "end_reason": "at_rest",
       "global_step": 18883,
-      "wall_time": 0.7198340892791748
+      "wall_time": 0.7253837585449219
     },
     {
       "episode": 62,
@@ -522,7 +522,7 @@
       "length": 219,
       "end_reason": "crash",
       "global_step": 19102,
-      "wall_time": 0.7279880046844482
+      "wall_time": 0.7336678504943848
     },
     {
       "episode": 63,
@@ -530,7 +530,7 @@
       "length": 246,
       "end_reason": "at_rest",
       "global_step": 19348,
-      "wall_time": 0.737537145614624
+      "wall_time": 0.7434256076812744
     },
     {
       "episode": 64,
@@ -538,7 +538,7 @@
       "length": 232,
       "end_reason": "at_rest",
       "global_step": 19580,
-      "wall_time": 0.7466812133789062
+      "wall_time": 0.7523887157440186
     },
     {
       "episode": 65,
@@ -546,7 +546,7 @@
       "length": 240,
       "end_reason": "at_rest",
       "global_step": 19820,
-      "wall_time": 0.7552840709686279
+      "wall_time": 0.7615699768066406
     },
     {
       "episode": 66,
@@ -554,7 +554,7 @@
       "length": 487,
       "end_reason": "at_rest",
       "global_step": 20307,
-      "wall_time": 0.7741413116455078
+      "wall_time": 0.7808539867401123
     },
     {
       "episode": 67,
@@ -562,7 +562,7 @@
       "length": 246,
       "end_reason": "at_rest",
       "global_step": 20553,
-      "wall_time": 0.7829301357269287
+      "wall_time": 0.7903790473937988
     },
     {
       "episode": 68,
@@ -570,7 +570,7 @@
       "length": 218,
       "end_reason": "at_rest",
       "global_step": 20771,
-      "wall_time": 0.7913951873779297
+      "wall_time": 0.7986588478088379
     },
     {
       "episode": 69,
@@ -578,7 +578,7 @@
       "length": 345,
       "end_reason": "at_rest",
       "global_step": 21116,
-      "wall_time": 0.8049120903015137
+      "wall_time": 0.8122470378875732
     },
     {
       "episode": 70,
@@ -586,7 +586,7 @@
       "length": 216,
       "end_reason": "crash",
       "global_step": 21332,
-      "wall_time": 0.8126893043518066
+      "wall_time": 0.820422887802124
     },
     {
       "episode": 71,
@@ -594,7 +594,7 @@
       "length": 520,
       "end_reason": "at_rest",
       "global_step": 21852,
-      "wall_time": 0.8329811096191406
+      "wall_time": 0.8418066501617432
     },
     {
       "episode": 72,
@@ -602,7 +602,7 @@
       "length": 405,
       "end_reason": "at_rest",
       "global_step": 22257,
-      "wall_time": 0.8480291366577148
+      "wall_time": 0.8580317497253418
     },
     {
       "episode": 73,
@@ -610,7 +610,7 @@
       "length": 229,
       "end_reason": "at_rest",
       "global_step": 22486,
-      "wall_time": 0.8566939830780029
+      "wall_time": 0.8666648864746094
     },
     {
       "episode": 74,
@@ -618,7 +618,7 @@
       "length": 220,
       "end_reason": "at_rest",
       "global_step": 22706,
-      "wall_time": 0.8645491600036621
+      "wall_time": 0.8750567436218262
     },
     {
       "episode": 75,
@@ -626,7 +626,7 @@
       "length": 202,
       "end_reason": "crash",
       "global_step": 22908,
-      "wall_time": 0.8718032836914062
+      "wall_time": 0.8827567100524902
     },
     {
       "episode": 76,
@@ -634,7 +634,7 @@
       "length": 349,
       "end_reason": "at_rest",
       "global_step": 23257,
-      "wall_time": 0.8848011493682861
+      "wall_time": 0.8960998058319092
     },
     {
       "episode": 77,
@@ -642,7 +642,7 @@
       "length": 227,
       "end_reason": "at_rest",
       "global_step": 23484,
-      "wall_time": 0.8934483528137207
+      "wall_time": 0.9045989513397217
     },
     {
       "episode": 78,
@@ -650,7 +650,7 @@
       "length": 224,
       "end_reason": "crash",
       "global_step": 23708,
-      "wall_time": 0.9017152786254883
+      "wall_time": 0.9130527973175049
     },
     {
       "episode": 79,
@@ -658,7 +658,7 @@
       "length": 247,
       "end_reason": "at_rest",
       "global_step": 23955,
-      "wall_time": 0.9106321334838867
+      "wall_time": 0.9226980209350586
     },
     {
       "episode": 80,
@@ -666,7 +666,7 @@
       "length": 227,
       "end_reason": "at_rest",
       "global_step": 24182,
-      "wall_time": 0.9188351631164551
+      "wall_time": 0.9317488670349121
     },
     {
       "episode": 81,
@@ -674,7 +674,7 @@
       "length": 1000,
       "end_reason": "truncated",
       "global_step": 25182,
-      "wall_time": 0.9576191902160645
+      "wall_time": 0.9736478328704834
     },
     {
       "episode": 82,
@@ -682,7 +682,7 @@
       "length": 228,
       "end_reason": "at_rest",
       "global_step": 25410,
-      "wall_time": 0.9665031433105469
+      "wall_time": 0.9827258586883545
     },
     {
       "episode": 83,
@@ -690,7 +690,7 @@
       "length": 204,
       "end_reason": "crash",
       "global_step": 25614,
-      "wall_time": 0.9742271900177002
+      "wall_time": 0.9908647537231445
     },
     {
       "episode": 84,
@@ -698,7 +698,7 @@
       "length": 174,
       "end_reason": "crash",
       "global_step": 25788,
-      "wall_time": 0.9808011054992676
+      "wall_time": 0.9978427886962891
     },
     {
       "episode": 85,
@@ -706,7 +706,7 @@
       "length": 262,
       "end_reason": "at_rest",
       "global_step": 26050,
-      "wall_time": 0.9903981685638428
+      "wall_time": 1.0089128017425537
     },
     {
       "episode": 86,
@@ -714,7 +714,7 @@
       "length": 238,
       "end_reason": "at_rest",
       "global_step": 26288,
-      "wall_time": 0.9989602565765381
+      "wall_time": 1.0196378231048584
     },
     {
       "episode": 87,
@@ -722,7 +722,7 @@
       "length": 223,
       "end_reason": "at_rest",
       "global_step": 26511,
-      "wall_time": 1.0075492858886719
+      "wall_time": 1.0290188789367676
     },
     {
       "episode": 88,
@@ -730,7 +730,7 @@
       "length": 253,
       "end_reason": "at_rest",
       "global_step": 26764,
-      "wall_time": 1.0173439979553223
+      "wall_time": 1.039330005645752
     },
     {
       "episode": 89,
@@ -738,7 +738,7 @@
       "length": 246,
       "end_reason": "at_rest",
       "global_step": 27010,
-      "wall_time": 1.0267770290374756
+      "wall_time": 1.049306869506836
     },
     {
       "episode": 90,
@@ -746,7 +746,7 @@
       "length": 320,
       "end_reason": "at_rest",
       "global_step": 27330,
-      "wall_time": 1.0387499332427979
+      "wall_time": 1.0629348754882812
     },
     {
       "episode": 91,
@@ -754,7 +754,7 @@
       "length": 238,
       "end_reason": "at_rest",
       "global_step": 27568,
-      "wall_time": 1.0472981929779053
+      "wall_time": 1.072718858718872
     },
     {
       "episode": 92,
@@ -762,7 +762,7 @@
       "length": 254,
       "end_reason": "at_rest",
       "global_step": 27822,
-      "wall_time": 1.0564780235290527
+      "wall_time": 1.082986831665039
     },
     {
       "episode": 93,
@@ -770,7 +770,7 @@
       "length": 241,
       "end_reason": "at_rest",
       "global_step": 28063,
-      "wall_time": 1.065566062927246
+      "wall_time": 1.0921096801757812
     },
     {
       "episode": 94,
@@ -778,7 +778,7 @@
       "length": 1000,
       "end_reason": "truncated",
       "global_step": 29063,
-      "wall_time": 1.1064910888671875
+      "wall_time": 1.134462833404541
     },
     {
       "episode": 95,
@@ -786,7 +786,7 @@
       "length": 223,
       "end_reason": "at_rest",
       "global_step": 29286,
-      "wall_time": 1.1150851249694824
+      "wall_time": 1.142683744430542
     },
     {
       "episode": 96,
@@ -794,7 +794,7 @@
       "length": 255,
       "end_reason": "at_rest",
       "global_step": 29541,
-      "wall_time": 1.1245110034942627
+      "wall_time": 1.1520848274230957
     },
     {
       "episode": 97,
@@ -802,7 +802,7 @@
       "length": 244,
       "end_reason": "at_rest",
       "global_step": 29785,
-      "wall_time": 1.1331140995025635
+      "wall_time": 1.161470890045166
     },
     {
       "episode": 98,
@@ -810,7 +810,7 @@
       "length": 233,
       "end_reason": "at_rest",
       "global_step": 30018,
-      "wall_time": 1.1417450904846191
+      "wall_time": 1.1714999675750732
     },
     {
       "episode": 99,
@@ -818,7 +818,7 @@
       "length": 264,
       "end_reason": "at_rest",
       "global_step": 30282,
-      "wall_time": 1.1515581607818604
+      "wall_time": 1.1818230152130127
     }
   ]
 }

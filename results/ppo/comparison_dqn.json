@@ -1,0 +1,58 @@
+{
+  "PPO": {
+    "n_seeds": 3,
+    "seed_means": [
+      267.1,
+      264.8,
+      271.5
+    ],
+    "seed_mean": 267.8061619796191,
+    "seed_std": 2.793507058988711,
+    "steps_to_200": 409184.0,
+    "reached": 3,
+    "total_steps": 1000000,
+    "wall_time": 168.83558789889017,
+    "ms_per_1000_steps": 168.83558789889017,
+    "eval": {
+      "n_episodes": 100,
+      "mean": 267.065421036296,
+      "std": 28.47997238738696,
+      "min": 39.17881059544396,
+      "max": 309.6752811208832,
+      "end_reasons": {
+        "crash": 1,
+        "out_of_viewport": 0,
+        "at_rest": 99,
+        "truncated": 0
+      }
+    }
+  },
+  "DQN": {
+    "n_seeds": 3,
+    "seed_means": [
+      265.6,
+      260.0,
+      236.2
+    ],
+    "seed_mean": 253.9399905372342,
+    "seed_std": 12.73836797004269,
+    "steps_to_200": 231590.33333333334,
+    "reached": 3,
+    "total_steps": 300000,
+    "wall_time": 236.99327818552652,
+    "ms_per_1000_steps": 789.977593951755,
+    "eval": {
+      "n_episodes": 100,
+      "mean": 274.37935719936354,
+      "std": 17.823842287906412,
+      "min": 216.15873346099502,
+      "max": 308.9757173569252,
+      "end_reasons": {
+        "crash": 0,
+        "out_of_viewport": 0,
+        "at_rest": 100,
+        "truncated": 0
+      }
+    }
+  }
+}
