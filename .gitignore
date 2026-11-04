@@ -15,6 +15,7 @@ checkpoints/
 # Sujets Epitech (pas de *.pdf : les supports de soutenance doivent être rendus)
 Start Trek.pdf
 Start Trek Bootstrap.pdf
+*.pptx
 
 # macOS
 .DS_Store
