@@ -10,11 +10,13 @@ Python 3.12 recommandé (gymnasium ≥ 1.2 ne supporte plus Python 3.9).
 python3.12 -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
-pip install swig
 pip install -r requirements.txt
+pip install ipykernel
 ```
 
-`swig` doit être installé avant le reste : Box2D en a besoin pour compiler.
+Box2D a besoin de `swig` pour compiler. Il faut l'installer **avant** avec Homebrew (`brew install swig`), pas avec pip : le `swig` de pip n'est pas trouvé pendant la compilation de Box2D (`No module named 'swig'`).
+
+Pour lancer les notebooks dans VS Code, sélectionner le kernel `.venv` (en haut à droite du notebook).
 
 ## Structure
 
@@ -23,8 +25,10 @@ pip install -r requirements.txt
 | `dqn.ipynb` | Agent DQN : entraînement, expériences, analyse |
 | `ppo.ipynb` | Agent PPO : entraînement, expériences, comparaison avec DQN |
 | `models/` | Modèles finaux sauvegardés |
+| `results/` | Résultats exportés (`dqn/`, `ppo/`) pour la comparaison |
 | `model.py` | Évaluation d'un modèle sauvegardé |
 | `bonus/` | Bonus |
+| `soutenance/` | Support de soutenance |
 
 ## Évaluation d'un modèle
 
